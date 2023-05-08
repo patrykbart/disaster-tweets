@@ -162,3 +162,6 @@ cython_debug/
 # Manually added
 *.bin
 lightning_logs/
+.vscode/
+output/
+.DS_Store

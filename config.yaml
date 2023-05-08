@@ -1,3 +1,14 @@
 data:
+  train: data/train.csv
+  test: data/test.csv
+  valid_size: 0.1
+  tokenizer_name: textattack/bert-base-uncased-yelp-polarity
 model:
+  name: textattack/bert-base-uncased-yelp-polarity
+  num_labels: 2
 training:
+  num_epochs: 10
+  batch_size: 256
+  learning_rate: 0.00001
+  weight_decay: 0.01
+  logging_steps: 10
